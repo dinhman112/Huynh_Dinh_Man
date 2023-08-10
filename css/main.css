@@ -1,0 +1,28 @@
+.related-products{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1em;
+    border-bottom: 1px dotted gray;
+    font-weight: bold;
+}
+.product-detail-info{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    padding: 10px;
+    margin-left: 20px;
+    list-style: none;
+}
+.product-detail-header{
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px dotted gray;
+}
+.product-brief{
+    border-top: 1px solid lightgray;
+    margin-top: 7px;
+}
+.card-body:hover{
+    transform: scale(1.05);
+    box-shadow: 10px;
+    border: 100px;
+}

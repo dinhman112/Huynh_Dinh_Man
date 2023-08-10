@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+      .shopping.mall{
+    bottom: 20px;
+    font-variant: small-caps;
+}
+.shopping.mall>h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: white;
+    letter-spacing: .3px;
+    text-shadow: 0 0 2px #000;
+    padding-bottom: 0px;
+    border-bottom: 1px dotted gray;
+    margin: 0px;
+}
+.shopping.mall>h5{
+    margin-top: 5px;
+    letter-spacing: .5px;
+}
+a:visited, a:hover, a:active{
+    text-decoration: none;
+}
+    </style>
+</head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <div class="container">
+        <header class="row m1-1">
+        <div class="shopping-mall pt-4">
+            <h1>Dinh Man Shop</h1>
+            <h5>The Center Point Of Professional Programing</h5>
+        </div>
+        <img src="images/apple.png" style="width: 12cm;" class="ml-auto mr-3">
+        </header>
+        <nav class="row" style="background-color: green;">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light col ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="http://127.0.0.1:5500/lap3/html/paginationlist.html">
+                        <i class="fas fa-home"></i>
+                        Home <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-list-alt"></i>Introduce</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-phone"></i>Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-mail-bulk"></i>Feedback</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-question"></i>Ask and answer</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-user"></i>Acount
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Login</a>
+                        <a class="dropdown-item" href="#">Forgot password</a>
+                        <a class="dropdown-item" href="#">Sign up</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Sign out</a>
+                        <a class="dropdown-item" href="#">Change Password</a>
+                        <a class="dropdown-item" href="#">update</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">order</a>
+                        <a class="dropdown-item" href="#">purchased goods</a>
+                      </div>
+                    </li>    
+                  </ul>
+                  <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                          <a href="" class="nav-link">English</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a href="" class="nav-link">Vietnamses</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </nav>
+        <p></p>
+        <section class="row">
+            <article class="col-9">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col product-detail-header">
+                    the detail information of product
+                   </div>
+                </div>
+                <p></p>
+                <div class="row">
+                  <img src="images/11.webp" width="100" class="col-sm-4 img-fluid">
+                  <div class="col-sm-8">
+                    <ul class="product-detail-info">
+                      <li>product name: <span class="badge badge-secondary">IPhone 11</span></li>
+                      <li>Unit price: 3000$</li>
+                      <li>Supplier: Apple</li>
+                      <li>Species: Sách tay</li>
+                      <li>Amount: 3 <span class="badge badge-warning">Cái</span></li>
+                      <li>Discount: 88 <span class="badge badge-primary">%</span></li>
+                      <p></p>
+                      <button   onclick="themvaogiohang(this)">Đặt Hàng</button>
+                    </ul>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="row my-3">
+                      <div class="col related-products">Related Products: </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <img src="images/(600x600)_crop_600_iphone_11_pro_max_den_xtmobile.jpg" width="70" class="img-thumbnail">
+                        <img src="images/11.webp" width="70" class="img-thumbnail">
+                        <img src="images/ip11.jpg" width="70" class="img-thumbnail">
+                        <img src="images/thumb_11-ProMAX_3.jpg" width="70" class="img-thumbnail">
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p></p>
+            </article>
+            <aside class="col-3">
+            <div class="Btec-cart mt-2">
+              <div class="cart">
+                <div class="cart-body">
+                  <div class="row">
+                    <div class="col-5">
+                      <img src="images/giohang.jpg" class="img-fluid">
+                    </div>
+                    <ul class="col-7">
+                      <li>100 Items</li>
+                      <li>$ 5.6</li>
+                      <li><a href="">View Cart</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="cart mt-2">
+                  <div class="cart-body">
+                    <form action="">
+                      <input type="text" class="form-control" placeholder="keywords">
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div id="accordianId" role="tablist" aria-multiselectable="false" 
+                 class="text-decoration-none mt-3">
+                 <div class="card">
+                  <div class="card-header" role="tab" id="section1HeaderId">
+                    <h5 class="mb-0">
+                      <a data-toggle="collapse" data-parent="#accordianId" 
+                       href="#section1ContentId" 
+                       aria-expanded="true" aria-controls="section1ContentId">
+                        <i class="fas fa-list"></i>
+                        species
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="section1ContentId" class="collapse in" role="tabpanel" 
+                   aria-labelledby="section1HeaderId" data-parent="#accordianId">
+                      <ul class="ul list-group">
+                        <li class="list-group-item">Iphone 11</li>
+                        <li class="list-group-item">Iphone 12</li>
+                        <li class="list-group-item">Iphone 13</li>
+                        <li class="list-group-item">Iphone 14</li>
+                      </ul>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" role="tab" id="section2HeaderId">
+                    <h5 class="mb-0">
+                      <a data-toggle="collapse" data-parent="#accordianId" href="#section2ContentId" 
+                       aria-expanded="true" aria-controls="section2ContentId">
+                         <i class="fas fa-gift"></i> special product
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="section2ContentId" class="collapse in" role="tabpanel" 
+                   aria-labelledby="section2HeaderId" data-parent="#accordianId">
+                   <ul class="list-group">
+                    <li class="list-group-item ">bestseller</li>
+                    <li class="list-group-item">new products</li>
+                   </ul>
+                  </div>
+
+                </div>
+                <div class="card">
+                  <div class="card-header" role="tab" id="section3HeaderId">
+                    <h5 class="mb-0">
+                      <a data-toggle="collapse" data-parent="#accordianId" href="#section3ContentId" 
+                       aria-expanded="true" aria-controls="section3ContentId">
+                       <i class="fas fa-warehouse"></i> supplier
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="section3ContentId" class="collapse in" role="tabpanel" 
+                   aria-labelledby="section3HeaderId" data-parent="#accordianId">
+                   <ul class="list-group">
+                    <li class="list-group-item ">Apple</li>
+                    <li class="list-group-item">Samsung</li>
+                   </ul>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            </aside>
+        </section>
+        <footer class="row" style="background-color: brown;">
+            <div class="card col">
+            <div class="card-body">
+                <p>FPT btec &copy; 2022,All rights revered.</p>
+        </div>
+        </footer>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+</html>

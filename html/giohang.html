@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="giohang.js"></script>
+    <link rel="stylesheet" href="../css/giohang.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="products">
+            <div class="title">Danh Sach Hang Đa Chon</div>
+            <table class="productslist">
+                <thead>
+                    <tr>
+                        <th>MA</th>
+                        <th>Ten San Pham</th>
+                        <th>Gia</th>
+                        <th>&nbsp;</th>
+                    </tr>
+                </thead>
+
+
+                <tbody>
+                 <tr> 
+                    <td>1</td>
+                    <td>Iphone 7</td>
+                    <td>$ <samp class="amout">500</samp></td>
+                    <td><button type="button" onclick="addToCart(this)">Them</button></td>
+                 </tr>
+
+                 <tr> 
+                    <td>2</td>
+                    <td>Iphone 8</td>
+                    <td>$ <samp class="amout">600</samp></td>
+                    <td><button type="button" onclick="addToCart(this)">Them</button></td>
+                 </tr>
+
+                 <tr> 
+                    <td>3</td>
+                    <td>Iphone XS</td>
+                    <td>$ <samp class="amout">800</samp></td>
+                    <td><button type="button" onclick="addToCart(this)">Them</button></td>
+                 </tr>
+
+                 <tr> 
+                    <td>4</td>
+                    <td>Iphone 11</td>
+                    <td>$ <samp class="amout">1000</samp></td>
+                    <td><button type="button" onclick="addToCart(this)">Them</button></td>
+                 </tr>
+
+                 <tr> 
+                    <td>5</td>
+                    <td>Iphone 12</td>
+                    <td>$ <samp class="amout">14.000</samp></td>
+                    <td><button type="button" onclick="addToCart(this)">Them</button></td>
+                 </tr>
+                </tbody>
+            </table>
+        </div>
+        <hr>
+        <div class="shoping-cart">
+            <div class="title">Gio Hang Cua Ban</div>
+            <Table id="cartItems" class="cart-items" style="display:none">
+                <thead>
+                 <tr>
+                    <th>Ma</th>
+                    <th>Ten</th>
+                    <th>Gia</th>
+                    <th>&nbsp;</th>
+                 </tr>
+                </thead>
+                <tbody id="cart-body">
+
+                </tbody>
+            </Table>
+            <div id="grandTotal" class="grandtotal" style="display:none">
+               Tong Tien: $ <span id="total">500</span> 
+            </div>
+            <div id="emptycart" class="emptycart">
+                Ban Chua Co Mat Hang Nao
+            </div>
+        </div>
+    </div>
+</body>
+</html>
